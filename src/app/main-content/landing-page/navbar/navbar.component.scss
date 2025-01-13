@@ -12,7 +12,14 @@ nav {
   > div {
     width: 350px;
     display: flex;
+    justify-content: space-between;
+    font-family: "Raleway", sans-serif;
+    width: 50%;
     > a {
+      position: relative;
+      top: 20px;
+      width: 100px;
+
       &:hover {
         color: red;
       }
@@ -27,5 +34,27 @@ a {
   &:hover {
     color: blue;
     cursor: pointer;
+  }
+}
+
+.phoneBTN {
+  background-color: red;
+  border-radius: 10px;
+  border-color: white;
+  border-width: 3.2px;
+  border-style: solid;
+  display: inline-block;
+  vertical-align: middle;
+  width: 175px;
+
+  > img {
+    height: 24px;
+    width: 24px;
+  }
+
+  > a {
+    position: relative;
+    top: 5px;
+    text-align: center;
   }
 }

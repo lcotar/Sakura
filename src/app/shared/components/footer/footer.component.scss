@@ -1,0 +1,33 @@
+section {
+  font-family: "Raleway", sans-serif;
+  background-color: #0a141e;
+  color: white;
+  display: flex;
+  padding: 144px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div {
+  width: 100%;
+  position: relative;
+
+  > a {
+    display: flex;
+    float: right;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+
+    &:hover {
+      color: blue;
+      cursor: pointer;
+    }
+  }
+
+  > img {
+    width: 100px;
+    height: 100px;
+  }
+}
